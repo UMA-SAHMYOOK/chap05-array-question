@@ -8,6 +8,12 @@ public class Application1 {
 		 * 각 인덱스에 차례대로 1부터 10까지 값을 넣고 출력하세요
 		 * */
 
+		int[] a = new int[10];
+		for(int i = 0; i<a.length;i++){
+			a[i] = i+1;
+			System.out.println(a[i]);
+		}
+
 	}
 
 }
